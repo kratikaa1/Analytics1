@@ -26,7 +26,7 @@ summary(fit1)
 #residuals: error, difference btwn predicted and actual weight. ranges from -1.7 to 3.1; variation.
 #f statistic tells us whether there is a linear model which exists btwn IV AND DV. if p value is less thN 0.05,thn it is significant and we reject null hypothesis. and hence there is a sifnificant relationship btwn height and weight.
 #book r in action, pg.174
-
+#estimate: if weight increases by1 unit thn height shld increase by 3.45 units.
 (new1= data.frame(height=c(65,66))) #heights needs to be in the range of dataset bcz u can't extrapolate but intrapolate within the range.
 new1
 (p1=predict(fit1, newdata = new1))
